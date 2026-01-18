@@ -17,6 +17,8 @@ git clone https://github.com/m0r-h2/test_project.git
 cd test_project
 ```
 
+### ❗ Убитесь что переименовали или создали новый .env
+
 ### 2️⃣ Сборка и запуск контейнеров
 ```bash
 docker compose up -d --build
