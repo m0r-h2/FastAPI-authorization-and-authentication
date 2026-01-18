@@ -1,0 +1,62 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# ======================
+# Virtual environment
+# ======================
+.venv/
+venv/
+env/
+
+# ======================
+# Environment variables / secrets
+# ======================
+.env
+
+# ======================
+# IDE (PyCharm / VS Code)
+# ======================
+.idea/
+.vscode/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Alembic
+# ======================
+alembic/versions/__pycache__/
+
+# ======================
+# Docker
+# ======================
+*.env
+docker-compose.override.yml
+
+# ======================
+# Tests / coverage
+# ======================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ======================
+# Mypy / Ruff / other tools
+# ======================
+.mypy_cache/
+.ruff_cache/

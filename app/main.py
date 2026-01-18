@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from app.routes import users, admin
+from app.api import users, admin
 
 app = FastAPI()
 

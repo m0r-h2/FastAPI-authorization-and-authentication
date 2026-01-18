@@ -5,7 +5,7 @@ from sqlalchemy import (
 from sqlalchemy.orm import Mapped, mapped_column
 from datetime import datetime
 
-from app.database import Base
+from app.database.database import Base
 
 
 class User(Base):
@@ -22,3 +22,4 @@ class User(Base):
     role: Mapped[str] = mapped_column(String, default="user", comment="Роль пользователя")
 
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=datetime.now,  comment="Дата и время создания пользователя")
+

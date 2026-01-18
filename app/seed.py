@@ -2,8 +2,8 @@ import asyncio
 from passlib.context import CryptContext
 from sqlalchemy import select
 
-from app.database import async_engine, async_session_maker, Base
-from app.models.users import User
+from app.database.database import async_engine, async_session_maker, Base
+from app.database.users import User
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
